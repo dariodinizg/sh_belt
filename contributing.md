@@ -1,4 +1,4 @@
-Color|green|# Contributing Guide
+# Contributing Guide
 
 We all look for ways to stop typing too much and the same thing over and over.
 If you want a home for all thoses scripts you build to automate your processes,
