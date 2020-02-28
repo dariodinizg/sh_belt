@@ -11,7 +11,7 @@ Read the script in order to look the USES, REQUIRE and ARGUMENTS comments to lea
 Then uses the (sudo)`chmod +rwx [filename]`. Now you may call it with ./scriptname and obeying the script description.
 
 
-__IMPORTANT__: Read the scripts, dont execute something without knowing... dont... ever...
+__Important__: Read the scripts, dont execute something without knowing... dont... ever...
 
 
 " Its easy, but can be easyer "
