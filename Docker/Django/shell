@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Script for interact with django via shell
+# REQUIRE: The name of your django container be web or change the 'web' in the 
+# execution line below to the service name of you django container.
+
+sh -c "docker-compose run --rm web python3 manage.py shell"

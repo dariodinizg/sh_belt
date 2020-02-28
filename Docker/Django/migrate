@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# USES: Apply migrations
+# ARGUMENTS: OPTIONAL - The argument {1} is for your app_name and {2} for the migration number
+# REQUIRE: The name of your django container be web or change the 'web' in the 
+# execution line below to the service name of you django container.
+
+sh -c "docker-compose run --rm web python3 manage.py migrate $1 $2"

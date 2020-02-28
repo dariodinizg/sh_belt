@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# USES: Use sqlmigrate
+# ARGUMENTS: MANDATORY - The argument {1} is for your app_name and {2} for the migration number
+# REQUIRE: The name of your django container be web or change the 'web' in the 
+# execution line below to the service name of you django container.
+
+# Ex: sudo ./sqlmigrate web 0001
+sh -c "docker-compose run --rm web python3 manage.py sqlmigrate ${1} ${2}"

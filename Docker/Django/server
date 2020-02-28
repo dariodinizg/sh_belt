@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# USES: Starts server
+# REQUIRE: Substitute 'djserver' below with the name
+# or hash id of the container created for your server.
+
+docker start -a djserver

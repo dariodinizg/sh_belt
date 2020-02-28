@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# USES: Call manage.py with your arguments
+# ARGUMENTS: Each space between the words after 'manage.py' below is counted
+# as an argument. The code accepts until 5 arguments. If you need more, just create more
+# writting '${current_count_number}' like ${6}, ${7}, ${8} and so on.
+# REQUIRE: The name of your django container be web or change the 'web' in the 
+# execution line below to the service name of you django container.
+
+sh -c "sudo docker-compose run --rm web python3 manage.py ${1} ${2} ${3} ${4} ${5}"
