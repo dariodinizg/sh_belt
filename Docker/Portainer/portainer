@@ -1,8 +1,8 @@
 #!/bin/bash
 
+# USES: This scrips will alow you to stop/start portainer based in its execution state
 # REQUIRE Change the 'portainer' word in the code with the name or hash of the
 # container used for portainer to run.
-# This scrips will alow you to stop/start portainer based in its execution state.
 
 if [ ! "$(docker ps | grep 'portainer')" ]
 then
